@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2019",
+    "lib": ["ES2020"],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "suppressExcessPropertyErrors": true,
+    "outDir": "./dist",
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tmp",
+    "lib",
+  ]
+}
